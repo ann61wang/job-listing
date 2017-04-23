@@ -1,1 +1,67 @@
-<h1> Hello World! </h1>
+<div class="col-md-12">
+  <div class="row box">
+    <div class="box-inner col-md-6 col-md-offset-3">
+      <h1 class="title">自由职业</h1>
+      <p class="slogan">自由职业 是一个提供自由工作机会的求职网站
+        <br>
+        开启你的自由生活
+        <br>
+        你可以选择工作场所和时间
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="content-section-a">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-sm-6">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">企业特色</h2>
+        <p class="lead">我们是一家提倡在家工作的企业</p>
+        <p class="lead">
+          <%= link_to '了解企业', job_path(6), class: 'btn btn-danger' %>
+        </p>
+      </div>
+      <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+        <%= image_tag 'pic-1.jpg', class: 'img-responsive' %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content-section-b">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">职业寻找</h2>
+        <p class="lead">寻找与你技能匹配的职业吧</p>
+        <p class="lead">
+          <%= link_to '马上应征', jobs_path, class: 'btn btn-danger' %>
+        </p>
+      </div>
+      <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+        <%= image_tag 'pic-2.jpg', class: 'img-responsive' %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content-section-a">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-sm-6">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">杰出自由工作者的故事</h2>
+        <p class="lead">不要再埋头苦干，借鉴别人的经验</p>
+      </div>
+      <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+        <%= image_tag 'pic-3.jpg', class: 'img-responsive' %>
+      </div>
+    </div>
+  </div>
+</div>
