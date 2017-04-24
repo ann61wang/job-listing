@@ -1,7 +1,7 @@
 class StoriesController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create, :update, :edit, :destroy]
   def index
-    @stories = Story.all
+    @stories = Story.all.recent
   end
 
   def show
